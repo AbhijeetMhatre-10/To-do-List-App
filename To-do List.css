@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+/* Importing Google Fonts (Roboto) */
+
+/* Styling the background container */
+.todos-bg-container {
+    background-color: #f9fbfe;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Main container styling */
+.container {
+    max-width: 600px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Heading styles */
+.todos-heading {
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* Task creation and todo list headings */
+.create-task-heading,
+.todo-items-heading {
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+/* Input field for entering todo items */
+.todo-user-input {
+    background-color: white;
+    width: 100%;
+    border: 1px solid #e4e7eb;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Styling buttons */
+.button {
+    color: white;
+    background-color: #4c63b6;
+    font-family: "Roboto";
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* List container for todo items */
+.todo-items-container {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+/* Individual todo item styling */
+.todo-item-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f0f4f8;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+/* Styling for checkbox */
+.checkbox-input {
+    margin-right: 10px;
+}
+
+/* Strike-through style for completed tasks */
+.checked {
+    text-decoration: line-through;
+}
+
+/* Icon styling for edit and delete buttons */
+.edit-icon,
+.delete-icon {
+    cursor: pointer;
+    margin-left: 10px;
+    color: #007bff;
+}
+
+.edit-icon:hover,
+.delete-icon:hover {
+    color: #0056b3;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+
+    .button {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
