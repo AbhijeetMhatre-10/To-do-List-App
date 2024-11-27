@@ -21,8 +21,13 @@ cd To-do-List-App
 Open in Browser Open the index.html file in any modern web browser to use the app.
 
 👥 Contribution Guidelines
+
 Contributions are welcome! To contribute:
+
 1.Fork the repository.
+
 2.Create a new branch for your feature or bug fix.
+
 3.Commit your changes and push them to your fork.
+
 4.Create a pull request with a description of your changes.
